@@ -21,6 +21,7 @@
     "react-toastify": "^6.2.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "uid": "^2.0.0",
     "universal-cookie": "^4.0.4",
     "web-vitals": "^0.2.4"
   },
