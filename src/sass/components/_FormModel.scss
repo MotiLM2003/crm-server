@@ -1,0 +1,23 @@
+.form-model {
+  width: 100%;
+  @include opacity-background;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #000;
+  position: fixed;
+  backdrop-filter: blur(3px);
+
+  &__card {
+    position: absolute;
+    @include center-absolute;
+    min-width: 5rem;
+    background: $white;
+    min-height: 5rem;
+    border-radius: 0.7rem;
+    padding: 3rem;
+  }
+
+  &__header {
+    color: darken(#eee, 30);
+    font-size: 2rem;
+  }
+}

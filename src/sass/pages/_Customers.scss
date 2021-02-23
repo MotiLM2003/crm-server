@@ -1,0 +1,254 @@
+.customers {
+  &__button {
+    color: $white;
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+
+  &__table {
+    font-size: 1.3rem;
+    width: 100%;
+    border-collapse: collapse;
+    th,
+    td {
+      padding: 1.2rem;
+    }
+    th input {
+      text-align: center;
+    }
+    td div {
+      padding: 0.2rem;
+      color: white;
+      border-radius: 0.5rem;
+      max-width: 10rem;
+      margin: 0 auto;
+    }
+
+    tr.bg-grey th {
+      cursor: pointer !important;
+    }
+  }
+  td:nth-child(1),
+  td:nth-child(2),
+  td:nth-child(3),
+  td:nth-child(6),
+  td:nth-child(7),
+  td:nth-child(10),
+  td:nth-child(11),
+  td:nth-child(12) {
+    text-align: center;
+  }
+
+  tr {
+    background: #fff;
+  }
+
+  &__alt {
+    background: #eee !important;
+  }
+
+  &__table-container {
+    margin: 2rem 0 0 0;
+  }
+
+  &__search-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  a {
+    color: $blue-fade;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  &__search-dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    & > div {
+      width: 14rem;
+    }
+  }
+
+  &__toolbar {
+    display: flex;
+    justify-content: space-between;
+
+    & select {
+      margin: 0 2rem;
+      width: 20rem;
+    }
+  }
+
+  &__admin-panel {
+    & .button {
+      color: #fff;
+      margin: 0 0rem 0 2.5rem;
+    }
+  }
+  &__toolbar-buttons {
+    display: flex;
+  }
+
+  &__status {
+    cursor: pointer;
+    text-align: center;
+  }
+
+  &__set-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  &__pagination {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 2rem 0;
+  }
+
+  &__select-page {
+    width: 7rem;
+  }
+
+  &__comments {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    i {
+      color: rgba($blue-fade, 0.5);
+      font-size: 2.3rem;
+      transition: 0.7s;
+    }
+
+    &:hover i {
+      color: rgba($blue-fade, 1);
+      transform: scale(1.1) rotateY(200deg);
+    }
+
+    i:hover {
+    }
+  }
+
+  &__comment_content {
+    width: 100rem;
+    padding: 1rem;
+
+    & > div {
+      padding: 0.5rem;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+    }
+  }
+  &__comments_tag {
+    color: #fff !important;
+    font-size: 1rem;
+    background: $danger;
+    position: absolute;
+    top: 8px;
+    left: 3rem;
+    padding: 0.9rem;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__comments_list {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    margin: 1rem 0 3rem 0;
+    h1 {
+      font-size: 2rem;
+      color: darken(#eee, 32);
+    }
+  }
+
+  &__comment {
+    display: flex;
+    padding: 0.5rem;
+    flex-grow: 1;
+    margin: 0.5rem 0;
+    & > div {
+      margin: 0 0.2rem;
+      background: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.6rem;
+      flex-basis: 20%;
+      flex-grow: 1;
+      border-radius: 0.5rem;
+    }
+    & > div:last-child {
+      background: $white;
+    }
+    & > div:nth-child(1) {
+      flex-basis: 20%;
+      text-align: left;
+    }
+    & > div:nth-child(2) {
+      flex-basis: 70%;
+      justify-self: flex-start;
+      text-align: left;
+    }
+    & > div:nth-child(4) button {
+      color: $white !important;
+    }
+  }
+
+  &__switch-container {
+    width: 80rem;
+    .button {
+      color: #fff;
+    }
+
+    select {
+      width: 150px;
+    }
+  }
+
+  &__switch-content {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  &__switch-buttons {
+    margin: 2rem 0 0 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+}
+
+.new-customer {
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50rem;
+
+  &__tollbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__error {
+    padding: 1rem;
+    color: $white;
+  }
+}

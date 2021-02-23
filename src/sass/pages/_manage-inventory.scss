@@ -1,0 +1,85 @@
+.manage-inventory {
+  margin: 2.5rem 0 0 0 !important;
+  color: $blue-deep;
+  &__toolbar {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1rem;
+    background: $gray-light;
+    margin: 0 0 2rem 0;
+  }
+
+  &__container {
+    display: flex;
+    gap: 5rem;
+  }
+
+  &__trash {
+    color: $blue-fade;
+    cursor: pointer;
+  }
+
+  &__add-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    .button {
+      color: #fff;
+      width: 22rem;
+    }
+  }
+
+  &__groups {
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.2rem;
+    border-bottom: 1px solid $gray-light;
+
+    &:hover {
+      background: snow;
+    }
+  }
+
+  &__items-count {
+    cursor: pointer;
+    text-align: center;
+  }
+
+  &__trash {
+    cursor: pointer;
+  }
+
+  &__item-header-container {
+    flex-grow: 1;
+  }
+
+  &__item-input {
+    margin-top: 1rem;
+    display: flex;
+    flex-grow: 1;
+    gap: 1rem;
+
+    & > div {
+      flex-grow: 1;
+    }
+  }
+
+  &__item-headers {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    & > div {
+      flex-grow: 1;
+      text-align: center;
+      background: $blue-deep;
+      padding: 1rem !important;
+      color: #fff;
+      padding: 0.5rem;
+    }
+  }
+}

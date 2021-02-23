@@ -1,0 +1,49 @@
+.progress-bar {
+  height: 20px;
+  background: transparent;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  position: relative;
+
+  &__bar {
+    background: linear-gradient(
+      45deg,
+      #9e4d73,
+      #3ab036,
+      #b03651,
+      #365db0,
+      #365db0,
+      #b0a936
+    );
+    background-size: 1200% 1200%;
+    animation: GradientBackground 10s ease infinite;
+
+    height: 40px;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+  }
+}
+
+@keyframes GradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} ;

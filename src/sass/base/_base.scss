@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+.textCenter {
+  text-align: center !important;
+}
+// WIDTH
+
+.w-1 {
+}
+
+// MARGIN
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
+.mt-5 {
+  margin-top: 2.5rem;
+}
+.mt-6 {
+  margin-top: 3rem;
+}
+.mt-7 {
+  margin-top: 3.5rem;
+}
+.mt-8 {
+  margin-top: 4rem;
+}
+.mt-9 {
+  margin-top: 4.5rem;
+}
+.mt-10 {
+  margin-top: 5rem;
+}
+.mt-11 {
+  margin-top: 5.5rem;
+}
+.mt-12 {
+  margin-top: 6rem;
+}
+.mt-13 {
+  margin-top: 6.5rem;
+}
+.mt-14 {
+  margin-top: 7rem;
+}
+.mt-15 {
+  margin-top: 7.5rem;
+}
+.mt-16 {
+  margin-top: 8rem;
+}
+.mt-17 {
+  margin-top: 8.5rem;
+}
+.mt-18 {
+  margin-top: 9rem;
+}
+.mt-19 {
+  margin-top: 9.5rem;
+}
+.mt-20 {
+  margin-top: 10rem;
+}
+// BACKGROUNDS
+.bg-transparent-white {
+  background: $transparent-white;
+}
+
+//  background colors
+.bg-blue {
+  background: $blue;
+  border: 1px solid $blue;
+  color: $white;
+}
+.bg-blue-light {
+  background: #89c4f4;
+}
+.bg-blue-dark {
+  background: $blue-dark;
+  border: 1px solid $blue-dark;
+  color: $white;
+  padding: 0.3rem;
+}
+
+.bg-info {
+  background: $info;
+}
+
+.bg-gray-light {
+  background: $gray-light;
+  border: 1px solid $gray-light;
+  color: $black-dark;
+}
+
+.bg-warning {
+  background-color: $danger;
+  color: #fff;
+}
+
+.bg-success {
+  background-color: $success;
+}
+.bg-in-success {
+  border-color: $success !important;
+}
+
+.bg-in-success:hover {
+  background: $success !important;
+  color: #fff !important;
+}
+.bg-in-warning {
+  border-color: $danger !important;
+}
+
+.bg-in-warning:hover {
+  background: $danger !important;
+  color: #fff !important;
+}
+.bg-white {
+  background-color: $white !important;
+  color: #000;
+}
+
+.bg-grey {
+  background-color: $gray !important;
+}
+
+.bg-blue-deep {
+  background: $blue-deep;
+}
+
+.bg-blue-deep-inverse {
+  border-color: $blue-deep !important;
+  border: 1px solid $blue-deep !important;
+  background: transparent !important;
+  color: $blue-deep !important;
+}
+
+.bg-turq {
+  background: $turq;
+}
+//  colors
+
+.blue {
+  color: $blue !important;
+}
+.blue-dark {
+  color: $blue-dark !important;
+}
+
+.gray-light {
+  color: $gray-light !important;
+}
+
+.bg-gray-deep {
+  color: $gray-deep !important;
+}
+
+.alt {
+  background: rgba($blue-deep, 0.1) !important;
+}
+
+.flex-break {
+  flex-basis: 100% !important;
+  height: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.danger {
+  background: $danger;
+  padding: 0.4rem;
+  color: $white;
+  border-radius: 0.5rem;
+  width: 100%;
+
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+// shapes
+.radius-s {
+  border-radius: 0.5rem;
+}
+
+.radius-m {
+  border-radius: 1rem;
+}
+
+.radius-l {
+  border-radius: 1.5rem;
+}
+
+// misc
+
+.hide {
+  display: none;
+}
+.opacityOn {
+  opacity: 1 !important;
+  transition: 1s;
+  transform: scale(1) !important;
+  transition: 1s;
+}
+
+.opacityOff {
+  opacity: 0;
+}
+
+.w-50 {
+  width: 5rem;
+}
+
+.w-75 {
+  width: 7.5rem;
+}
+
+.w-100 {
+  width: 10rem;
+}
+
+.w-125 {
+  width: 12.5rem;
+}
+.w-150 {
+  width: 15rem;
+}
+
+.w-175 {
+  width: 17.5rem;
+}
+
+.w-200 {
+  width: 20rem;
+}
+.w-250 {
+  width: 25rem;
+}
+.w-300 {
+  width: 30rem;
+}
+.w-350 {
+  width: 35rem;
+}
+.w-400 {
+  width: 40rem;
+}
+.w-450 {
+  width: 45rem;
+}
+.w-500 {
+  width: 50rem;
+}
+.w-550 {
+  width: 55rem;
+}
+.w-600 {
+  width: 60rem;
+}
+.w-650 {
+  width: 65rem;
+}
+.w-700 {
+  width: 70rem;
+}

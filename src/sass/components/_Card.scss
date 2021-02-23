@@ -1,0 +1,28 @@
+
+.card-container {
+    min-width:32rem;
+    min-height: 15rem;
+  
+    border-radius: .5rem;
+    overflow: hidden;
+
+    &__header {
+      
+        padding:1rem;
+       
+        color:$white;
+    }
+
+    &__card-item {
+      
+      
+       min-height: 45rem;
+        flex-grow:1;
+        background:$white;
+        flex-grow: 1;
+    }
+
+    &__extras {
+        margin:1rem 0;
+    }
+}

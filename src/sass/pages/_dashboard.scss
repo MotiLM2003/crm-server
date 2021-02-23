@@ -1,0 +1,29 @@
+.dashboard {
+  &__cards {
+    @include flexWarp;
+  }
+
+  &__card-item {
+    flex-basis: 40%;
+    max-width: 50%;
+    min-height: 45rem;
+    flex-grow: 1;
+    background: $white;
+    flex-grow: 1;
+  }
+}
+
+// LAST CONNECTION styles
+.customers-log {
+  &.header {
+    background: $gray-light;
+  }
+  &__item {
+    padding: 1rem;
+    display: flex;
+    & > div {
+      flex-grow: 1;
+      flex-basis: 50%;
+    }
+  }
+}

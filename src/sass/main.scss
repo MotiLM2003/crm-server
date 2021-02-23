@@ -1,0 +1,31 @@
+@import './abstracts/variables';
+@import './base/base';
+
+@import './abstracts/mixins';
+@import './abstracts/functions';
+@import './components/Card';
+@import './components/Input';
+@import './components/button';
+@import './components/divider';
+@import './components/FormModel';
+@import './components/Loader';
+@import './components/bubbles';
+@import './components/BackToTop';
+@import './components/seller_dropdown';
+@import './components/progressbar';
+
+@import './layout/secured-contenet';
+@import './layout/home-page_content';
+
+@import './pages/login';
+@import './pages/user-login';
+@import './pages/header';
+@import './pages/register';
+@import './pages/dashboard';
+@import './pages/Customers';
+@import './pages/customers_details';
+@import './pages/manage';
+@import './pages/manage-customers';
+@import './pages/import-customers';
+@import './pages/manage-inventory';
+@import './pages/home-page-dashboard';

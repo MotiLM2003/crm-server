@@ -1,0 +1,57 @@
+.import-customers {
+  margin: 2.5rem 0 0 0 !important;
+  display: flex;
+  gap: 1rem;
+
+  & .button {
+    color: #fff;
+    margin: 2rem 0 2rem 0;
+  }
+
+  &__content {
+    width: 100%;
+    & .button {
+      margin-right: 1rem;
+    }
+  }
+
+  &__toolbar {
+    margin: 0 1rem 1rem 1rem;
+    display: flex;
+
+    align-items: center;
+    gap: 1rem;
+    & > select {
+      width: 25rem;
+    }
+  }
+  &__list {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    gap: 1rem;
+    padding: 5px;
+    border-bottom: 1px solid $gray;
+
+    & > div {
+      flex: 1;
+      padding: 1rem;
+    }
+  }
+
+  &__no-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+    font-size: 10rem;
+    color: $gray;
+    font-family: 'Dosis', sans-serif;
+    border: 3px solid $gray;
+    padding: 3rem;
+    border-radius: 0.5rem;
+  }
+}

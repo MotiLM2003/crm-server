@@ -1,0 +1,21 @@
+.manage-customers {
+  margin: 2rem 1rem 0 3rem;
+  &__buttons {
+    margin: 0 0 1rem 0 !important;
+    & .button {
+      padding: 0.6rem;
+      margin-left: 1rem;
+    }
+  }
+
+  & .selected {
+    background: $blue-deep !important;
+    color: #fff !important;
+  }
+
+  & p {
+    color: red;
+    font-size: 1.2rem;
+    margin: -0.6rem 0 0 0;
+  }
+}
