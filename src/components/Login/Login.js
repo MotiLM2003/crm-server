@@ -95,7 +95,6 @@ const Login = (props) => {
       initial='hidden'
       animate='visible'
     >
-      <Link to='/backoffice/'>Backoffice</Link>
       <div className='login-container__corner-logo'>
         <img src={logo} alit='logo' />
       </div>
